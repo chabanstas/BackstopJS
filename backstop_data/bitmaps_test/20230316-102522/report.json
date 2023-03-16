@@ -1,0 +1,33 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Test_google_and_google_images_pages_0_document_0_DesktopFHD.png",
+        "test": "..\\bitmaps_test\\20230316-102522\\backstop_default_Test_google_and_google_images_pages_0_document_0_DesktopFHD.png",
+        "selector": "document",
+        "fileName": "backstop_default_Test_google_and_google_images_pages_0_document_0_DesktopFHD.png",
+        "label": "Test google and google images pages",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://images.google.com/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "DesktopFHD",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.20577739197530864,
+          "misMatchPercentage": "0.21",
+          "analysisTime": 86
+        },
+        "diffImage": "..\\bitmaps_test\\20230316-102522\\failed_diff_backstop_default_Test_google_and_google_images_pages_0_document_0_DesktopFHD.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}

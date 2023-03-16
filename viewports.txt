@@ -1,0 +1,45 @@
+    {
+      "label": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "label": "tablet",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "label":"Desktop",
+      "width":1280,
+      "height":1024
+    },
+    {
+      "label":"Desktop",
+      "width":1280,
+      "height":1024
+    },
+    {
+      "label":"DesktopFHD",
+      "width":1920,
+      "height":1080
+   },
+   {
+      "label": "UHD(8K)",
+      "width": 7680,
+      "height": 4320
+    },
+    {
+      "label": "iPhone 8",
+      "width": 1334,
+      "height": 750
+    },
+    {
+      "label": "iPhone Xr",
+      "width": 1792,
+      "height": 828
+    },
+    {
+      "label": "Quad HD",
+      "width": 2650,
+      "height": 1440
+    }

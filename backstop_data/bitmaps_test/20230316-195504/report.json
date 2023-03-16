@@ -1,0 +1,33 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Test_WebdriverIO_pages_0_document_0_DesktopFHD.png",
+        "test": "..\\bitmaps_test\\20230316-195504\\backstop_default_Test_WebdriverIO_pages_0_document_0_DesktopFHD.png",
+        "selector": "document",
+        "fileName": "backstop_default_Test_WebdriverIO_pages_0_document_0_DesktopFHD.png",
+        "label": "Test WebdriverIO pages",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "https://webdriver.io/",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "DesktopFHD",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -452
+          },
+          "rawMisMatchPercentage": 44.512617012617014,
+          "misMatchPercentage": "44.51",
+          "analysisTime": 482
+        },
+        "diffImage": "..\\bitmaps_test\\20230316-195504\\failed_diff_backstop_default_Test_WebdriverIO_pages_0_document_0_DesktopFHD.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+}
