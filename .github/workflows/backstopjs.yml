@@ -1,4 +1,4 @@
-name: WDIO-allure
+name: BackstopJS
 on:
   push:
     branches: [ main, master ]
@@ -23,8 +23,8 @@ jobs:
         if: always()
         with:
           repository: chabanstas/BackstopJS
-          ref: backstopks-report
-          path: ./bitmaps_test
+          ref: report
+          path: backstop_data/bitmaps_test
       - name: Push Build To Other Branch
         uses: s0/git-publish-subdir-action@develop
         env:
