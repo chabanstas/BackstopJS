@@ -1,9 +1,0 @@
-npm install -g backstopjs
-
-backstop init
-
-backstop reference
-
-backstop test
-
-backstop approve
