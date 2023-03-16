@@ -30,6 +30,6 @@ jobs:
         env:
           REPO: self
           BRANCH: report
-          FOLDER: bitmaps_test
+          FOLDER: backstop_data/bitmaps_test
           GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
           MESSAGE: "Build: ({sha}) {msg}"
