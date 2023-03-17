@@ -49,9 +49,15 @@ As you can see the initial scenario is the default one and it is created after w
 We can change the `label` and `URL` to what we want. 
 We can add a new scenario for a specific URL within the particular website or a totally different website URL. For this post, we will change `label` and `URL`:
 
-![Change label and URL](https://github.com/chabanstas/BackstopJS/blob/main/Screenshot_22.png)
+![Change label and URL](https://github.com/chabanstas/BackstopJS/blob/main/screenshots/Screenshot_22.png)
 
 Now we’re ready to run the test!
+
+## Run the initial test
+```
+backstop reference
+```
+The URL that we are hitting is https://www.google.com/ and we have three viewports, phone, tablet, and desktop resolutions. This command will save three screenshots in bitmaps_reference folder for the three different viewports.
 
 ## Meta
 Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
