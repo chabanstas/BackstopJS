@@ -58,13 +58,46 @@ Now we’re ready to run the test!
 backstop reference
 ```
 The URL that we are hitting is https://www.google.com/ and we have three viewports, phone, tablet, and desktop resolutions. This command will save three screenshots in bitmaps_reference folder for the three different viewports.
+  
+## Compare two screenshots
+Since we already saved our baseline images for different device resolutions, we are ready to compare those baseline images with the newest ones. 
 
+For example, we will change the URL to https://images.google.com/:
+
+![Change label and URL](https://github.com/chabanstas/BackstopJS/blob/main/screenshots/Screenshot_23.png)
+
+The command for image comparison would be:
+```
+backstop test
+```
+
+This is showing us that the UI has been changed and the images are different. That’s why we have 3 tests failed for all of the screenshots.
+
+Three images are created under bitmaps_test folder.
+  
+Since those are the same as the previous ones then we conclude that our UI application page has not been affected by any change made by the developers.
+  
+Repot is automatically generated:
+  
+![Change label and URL](https://wki5a3.n3cdn1.secureserver.net/wp-content/uploads/2021/02/image-3-1024x480.png)
+  
+The report shows all the tests that have been executed as well as all of the screenshots that’ve been compared.
+  
+## Save new screenshot as a baseline
+  
+Since there are no changes in the UI, we don’t need to save the newest images but just for the purpose of showing how you can store those screenshots we are going to save them, using the command:
+```
+backstop approve
+```
+  
+All of the newest screenshots from the bitmaps_test will be promoted to bitmaps_reference folder and would serve us as a baseline for upcoming test comparisons. This would be the case if the design has changed. In some situations, the UI may be broken and after we notice that the images are different, we need to coordinate with the developers and address the issue accordingly. In that case, we would not save the new screenshots since it is a bug, not a change request or a feature.
+  
 ## Meta
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+Stas Chaban – [@LinkedIn](https://www.linkedin.com/in/stanislav-chaban/)
+  
+[github](https://github.com/chabanstas)
+
+## Resources
+  
+* https://qamind.com/blog/visual-regression-tests-using-backstopjs/
+* https://github.com/garris/BackstopJS
