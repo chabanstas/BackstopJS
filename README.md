@@ -93,9 +93,7 @@ backstop approve
 All of the newest screenshots from the bitmaps_test will be promoted to bitmaps_reference folder and would serve us as a baseline for upcoming test comparisons. This would be the case if the design has changed. In some situations, the UI may be broken and after we notice that the images are different, we need to coordinate with the developers and address the issue accordingly. In that case, we would not save the new screenshots since it is a bug, not a change request or a feature.
   
 ## Meta
-Stas Chaban – [@LinkedIn](https://www.linkedin.com/in/stanislav-chaban/)
-  
-[github](https://github.com/chabanstas)
+Stas Chaban – [@LinkedIn](https://www.linkedin.com/in/stanislav-chaban/), [github](https://github.com/chabanstas)
 
 ## Resources
   
