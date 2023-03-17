@@ -49,7 +49,7 @@ As you can see the initial scenario is the default one and it is created after w
 We can change the `label` and `URL` to what we want. 
 We can add a new scenario for a specific URL within the particular website or a totally different website URL. For this post, we will change `label` and `URL`:
 
-![Change label and URL](https://drive.google.com/file/d/1pPnJzfLEQCSmt43RbI2TAqPm1-21Vhwa/view?usp=sharing)
+![Change label and URL](https://drive.google.com/file/d/1pPnJzfLEQCSmt43RbI2TAqPm1-21Vhwa/view)
 
 Now we’re ready to run the test!
 
